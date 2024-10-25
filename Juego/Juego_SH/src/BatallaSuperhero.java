@@ -15,6 +15,7 @@ public class BatallaSuperhero {
     personajes.add(new Villano("Hela", 14, 60, 100));
 
     do {
+      System.out.println("¡Bienvenido a Shadows of Justice! ¡Prepárate para luchar contra la oscuridad y restaurar la justicia en un mundo caótico!");
       // Menú inicial para elegir la batalla
       System.out.println("\nElige la batalla a realizar:");
       System.out.println("1. " + personajes.get(0).nombre + " vs " + personajes.get(1).nombre);
@@ -54,7 +55,6 @@ public class BatallaSuperhero {
   // Método para realizar una batalla entre dos personajes
   public static void realizarBatalla(Scanner scanner, Personaje superhero, Personaje villano) {
     System.out.println();
-    System.out.println("¡Bienvenido a Shadows of Justice! ¡Prepárate para luchar contra la oscuridad y restaurar la justicia en un mundo caótico!");
     System.out.println("\nEstadísticas de inicio de la batalla");
     System.out.println("------------------------------------------------");
     superhero.MostrarEstadísticasActuales();

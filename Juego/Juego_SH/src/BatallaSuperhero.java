@@ -15,6 +15,7 @@ public class BatallaSuperhero {
     personajes.add(new Villano("Hela", 14, 60, 100));
 
     do {
+      System.out.println();
       System.out.println("¡Bienvenido a Shadows of Justice! ¡Prepárate para luchar contra la oscuridad y restaurar la justicia en un mundo caótico!");
       // Menú inicial para elegir la batalla
       System.out.println("\nElige la batalla a realizar:");
